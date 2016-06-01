@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails',          '>= 5.0.0.rc1', '< 5.1'
-gem 'bcrypt',         '3.1.11'
 gem 'bootstrap-sass', '3.3.6'
 gem 'puma',           '3.4.0'
 gem 'sass-rails',     '5.0.4'
@@ -31,8 +30,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg',   '0.18.4'
-  gem 'puma', '3.4.0'
+  gem 'pg', '0.18.4'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
