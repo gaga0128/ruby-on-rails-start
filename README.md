@@ -7,9 +7,8 @@ This is the reference implementation of the sample application for the 4th editi
 To get started with the app, clone the repo and then install the needed gems:
 
 ```
-$ cd ~/tmp
-$ git clone https://bitbucket.org/railstutorial/sample_app_4th_ed.git sample_app
-$ cd sample_app
+$ git clone https://bitbucket.org/railstutorial/sample_app_4th_ed.git
+$ cd sample_app_4th_ed
 $ bundle install --without production
 ```
 
