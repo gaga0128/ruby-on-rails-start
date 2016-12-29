@@ -87,12 +87,12 @@ class User < ApplicationRecord
 
   # Follows a user.
   def follow(other_user)
-    following << other_user
+    active_relationships.create(followed_id: other_user.id)
   end
 
   # Unfollows a user.
   def unfollow(other_user)
-    following.delete(other_user)
+    active_relationships.find_by(followed_id: other_user.id).destroy
   end
 
   # Returns true if the current user is following the other user.
