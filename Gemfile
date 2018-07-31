@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails',                   '5.1.4'
+gem 'rails',                   '5.1.6'
 gem 'bcrypt',                  '3.1.11'
 gem 'faker',                   '1.7.3'
 gem 'carrierwave',             '1.2.2'
@@ -30,6 +30,7 @@ end
 
 group :test do
   gem 'rails-controller-testing', '1.0.2'
+  gem 'minitest',                 '5.10.3'
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.14.1'
   gem 'guard-minitest',           '2.4.6'
